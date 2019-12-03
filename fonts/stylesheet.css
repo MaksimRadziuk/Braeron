@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Regular.eot');
+    src: url('SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SFUIDisplay-Regular.woff') format('woff'),
+        url('SFUIDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Bold.eot');
+    src: url('SFUIDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SFUIDisplay-Bold.woff') format('woff'),
+        url('SFUIDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Thin.eot');
+    src: url('SFUIDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+        url('SFUIDisplay-Thin.woff') format('woff'),
+        url('SFUIDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Light.eot');
+    src: url('SFUIDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('SFUIDisplay-Light.woff') format('woff'),
+        url('SFUIDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
