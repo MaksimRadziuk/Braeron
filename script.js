@@ -10,9 +10,9 @@ $(document).ready(function(){
 		dots:false,
 		responsive:[
 			{
-			breakpoint:601,
+			breakpoint:1231,
 			settings:{
-				dots:true
+				slidesToShow:4
 			}
 			}
 		]
