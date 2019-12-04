@@ -1,10 +1,13 @@
 $(document).ready(function(){
-	$('#carousel').slick({
+	$('#mainPagePartners').slick({
+		slidesToShow:5,
+		slidesToScroll:1,
 		autoplay:true,
 		autoplaySpeed:5000,
-		speed:500,
+		speed:1500,
 		arrows:true,
 		infinite:true,
+		dots:false,
 		responsive:[
 			{
 			breakpoint:601,

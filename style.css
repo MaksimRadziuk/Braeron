@@ -261,3 +261,284 @@ section.description .video_wrap {
 	position: relative;
 	z-index: 1;
 }
+
+section.use {
+	width: 100%;
+}
+.use_block {
+	width: 32%;
+	height: 335px;
+	display: inline-block;
+	margin-left: 1.6%;
+	position: relative;
+	margin-bottom: 1.3vw;
+	overflow: hidden;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+.use_block.narrow {
+	width: 23.6%;
+	height: 430px;
+	margin-left: 1.6%;
+	margin-bottom: 0;
+}
+.use_block:nth-child(1),
+.use_block:nth-child(4),
+.use_block:nth-child(7) {
+	margin-left: 0;
+}
+.use_block .overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(10,17,23,0.8);
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-right: 30px;
+	top:270px;
+} 
+.use_block.narrow  .overlay {
+	top: 365px;
+}
+.use_block:hover .overlay {
+	top: 0;
+}
+.use_block.first {
+	overflow: visible;
+}
+.use_block.first .overlay {
+	background-color: #84bc99;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding:0;
+	z-index: 2;
+	top: 0;
+}
+.use_block.first .overlay .title {
+	font-size: 34px;
+	font-weight: 700;
+	padding-left: 85px;
+	position: relative;
+}
+.use_block.first .overlay .title:before {
+	height: 90%;
+	width: 6px;
+	background-color: #1d4a6b;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 5%;
+	display: block;
+}
+.use_block.first .overlay:after {
+	content: '';
+	width: 50px;
+	height: 30px;
+	transform: rotateZ(121deg) skew(-25deg) translateY(20%);
+	background-color: #84bc99;
+	right: -18px;
+	top: 50%;
+	position: absolute;
+	display: block;
+	z-index: 1;
+} 
+.use_block.chemicals {
+	background-image: url(img/bcg_use_agro.jpg);
+}
+.use_block.forest {
+	background-image: url(img/bcg_use_forest.jpg);
+}
+.use_block.oil_logistic {
+	background-image: url(img/bcg_use_oil-logistic.jpg);
+}
+.use_block.post_logistic {
+	background-image: url(img/bcg_use_post-logistic.jpg);
+}
+.use_block.sea_delivery {
+	background-image: url(img/bcg_use_sea-delivery.jpg);
+}
+.use_block.narrow.geodesic {
+	background-image: url(img/bcg_use_geodesical.jpg);
+}
+.use_block.narrow.instruments {
+	background-image: url(img/bcg_use_instrumental-control.jpg);
+}
+.use_block.narrow.weather  {
+	background-image: url(img/bcg_use_weather.jpg);
+}
+.use_block.narrow.emergency {
+	background-image: url(img/bcg_use_emergency.jpg);
+}
+.use_block .overlay .title {
+	font-size: 20px;
+	color:#fff;
+}
+.use_block .overlay p {
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 0;
+	padding: 0;
+	margin-top: 20px;
+}
+
+section.techDescription {
+	width: 100%;
+	}
+section.techDescription .text_wrap {
+	padding-top: 110px;
+	padding-bottom: 80px;
+	background: rgb(242,246,246);
+	background: -webkit-linear-gradient(left, rgba(242,246,246,1) 0%, rgba(242,246,246,1) 55%, rgba(255,255,255,1) 55.001%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(left, rgba(242,246,246,1) 0%, rgba(242,246,246,1) 55%, rgba(255,255,255,1) 55.001%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to right, rgba(242,246,246,1) 0%, rgba(242,246,246,1) 55%, rgba(255,255,255,1) 55.001%, rgba(255,255,255,1) 100%);
+}
+section.techDescription .text_wrap h2 {
+	width: 650px;
+	padding-right: 90px;
+}
+section.techDescription .text_wrap p {
+	width: 650px;
+	padding-right: 90px;
+}
+section.techDescription .infografic {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+section.techDescription .icon_wrap {
+	width: 50%;
+	display: inline-block;
+	padding-left: 11vw;
+	padding-top: 80px;
+	padding-bottom: 70px;
+}
+section.techDescription .icon_block {
+	width: 49%;
+	display: inline-block;
+	margin-bottom: 50px;
+	padding-right: 50px;
+}
+section.techDescription .icon_block .inner_wrap {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+section.techDescription .icon_block .icon {
+	width: 67px;
+	min-width: 67px;
+	height: 67px;
+	border-radius:50%;
+	border:2px solid #b0daa8;
+	margin-right: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+section.techDescription .icon_block p {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+section.techDescription .infografic .img_wrap {
+	position: relative;
+	width: 50%;
+}
+section.techDescription .infografic .img_wrap img {
+	position: relative;
+	left: 0;
+	top: -180px;
+	width: 100%;
+	height: auto;
+}
+
+section.partners {
+	width: 100%;
+	background-color: #f7f7f7;
+	padding-top: 110px;
+	padding-bottom: 100px;
+}
+section.partners h2 {
+	margin-bottom: 80px;
+}
+section.partners .partner_block {
+	text-align: center;
+}
+section.partners .partner_block img {
+	display: block;
+	margin:0 auto;
+}
+section.partners .slider_wrap {
+	padding: 0 90px;
+}
+.slick-prev, .slick-next {
+	width: 20px;
+	height: 60px;
+	background-image: url(img/slider_arrow-right.png);
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.slick-prev {
+	transform: rotateY(180deg) translate(0, -50%);
+	left: 0;
+}
+.slick-next {
+	right: 0;
+}
+
+footer {
+	width: 100%;
+	background-color: #182b3a;
+}
+footer .container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 35px 0;
+}
+footer .title {
+	font-size: 16px;
+	color: #a8abb0;
+	margin-bottom: 30px;
+}
+footer .logo_wrap {
+	margin-bottom: 25px;
+}
+footer .copyright p{
+	color: #a8abb0;
+	font-size: 16px;
+	margin: 5px 0;
+}
+footer .copyright a {
+	color: #4a8686;
+	font-size: 16px;
+}
+footer .contacts a{
+	display: block;
+	margin:5px 0;
+	font-size: 16px;
+}
+footer .contacts a i {
+	font-size: 14px;
+	margin-right: 10px;
+}
+footer .social a {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border:2px solid #afdbaa;
+	color:#afdbaa;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 22px;
+	font-size: 12px;
+	margin-right: 10px;
+}
