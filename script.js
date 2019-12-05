@@ -13,10 +13,23 @@ $(document).ready(function(){
 			breakpoint:1231,
 			settings:{
 				slidesToShow:4
-			}
+				}
+			},
+			{
+			breakpoint:901,
+			settings:{
+				slidesToShow:3
+				}
 			}
 		]
 	});
 
+	$('.closePopup').click(function() {
+		$(this).parent('.popup').toggleClass('active');
+	})
+
+	$('#mobileMenuTrigger').click(function() {
+		$('#mobileMenu').toggleClass('active');
+	})
 
 });
