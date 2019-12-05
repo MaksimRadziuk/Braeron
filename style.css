@@ -83,6 +83,9 @@ header.main_header .topbar .container .languge_wrap .divider {
 	background-color: #fff;
 	margin: 0 20px;
 }
+header.main_header .container {
+	display: block;
+}
 header.main_header .seo_text h1{
 	font-size: 60px;
 	font-weight: 700;
