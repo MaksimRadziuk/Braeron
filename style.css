@@ -85,6 +85,8 @@ header.main_header .topbar .container .languge_wrap .divider {
 }
 header.main_header .container {
 	display: block;
+	height: auto;
+	padding: 0 20px;
 }
 header.main_header .seo_text h1{
 	font-size: 60px;
@@ -104,7 +106,7 @@ header.main_header .seo_text p {
 	line-height: 1.4;
 }
 header.main_header .seo_text a {
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	height: 80px;
