@@ -26,15 +26,17 @@ iframe {
 	width: 100%;	
 	margin-bottom: 280px;
 	background: rgb(242,246,246);
-	background: -webkit-linear-gradient(left, rgba(242,246,246,1) 0%, rgba(242,246,246,1) 55%, rgba(255,255,255,1) 55.001%, rgba(255,255,255,1) 100%);
-	background: -o-linear-gradient(left, rgba(242,246,246,1) 0%, rgba(242,246,246,1) 55%, rgba(255,255,255,1) 55.001%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(linear, left top, right top, from(rgba(242,246,246,1)), color-stop(55%, rgba(242,246,246,1)), color-stop(55.001%, rgba(255,255,255,1)), to(rgba(255,255,255,1)));
 	background: linear-gradient(to right, rgba(242,246,246,1) 0%, rgba(242,246,246,1) 55%, rgba(255,255,255,1) 55.001%, rgba(255,255,255,1) 100%);
 
 }
 .content_part .container{
+	display: -webkit-box;
 	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;}
+	-webkit-box-align: start;
+	        align-items: flex-start;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;}
 .content_part .container>* {
 	width: 50%;
 }
@@ -129,10 +131,12 @@ main.contacts_page form .checkbox_wrap input {
 main.contacts_page form input::-webkit-input-placeholder { color: #8a8a8a; }
 main.contacts_page form input:-ms-input-placeholder { color: #8a8a8a; }
 main.contacts_page form input::-ms-input-placeholder { color: #8a8a8a; }
+main.contacts_page form input::-moz-placeholder { color: #8a8a8a; }
 main.contacts_page form input::placeholder { color: #8a8a8a; }
 main.contacts_page form textarea::-webkit-input-placeholder { color: #8a8a8a; }
 main.contacts_page form textarea:-ms-input-placeholder { color: #8a8a8a; }
 main.contacts_page form textarea::-ms-input-placeholder { color: #8a8a8a; }
+main.contacts_page form textarea::-moz-placeholder { color: #8a8a8a; }
 main.contacts_page form textarea::placeholder { color: #8a8a8a; }
 main.contacts_page form .checkbox_wrap label {
 	font-size: 15px;
@@ -247,10 +251,13 @@ main.contacts_page form button:hover {
 	}
 	.content_part {
 		margin: 0;
+		background: -webkit-gradient(linear, left top, left bottom, from(rgba(242,246,246,1)), color-stop(55%, rgba(242,246,246,1)), color-stop(55.001%, rgba(255,255,255,1)), to(rgba(255,255,255,1)));
 		background: linear-gradient(to bottom, rgba(242,246,246,1) 0%, rgba(242,246,246,1) 55%, rgba(255,255,255,1) 55.001%, rgba(255,255,255,1) 100%);
 	}
 	.content_part .container {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		        flex-direction: column;
 		padding: 0;
 	}
 	main.contacts_page .text_part {

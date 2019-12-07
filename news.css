@@ -4,9 +4,12 @@ main.news_page h1 {
 	margin-bottom: 80px;
 }
 main.news_page .content {
+	display: -webkit-box;
 	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
+	-webkit-box-align: start;
+	        align-items: flex-start;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
 }
 main.news_page .news_wrap {
 	width: 72%;
@@ -17,9 +20,12 @@ main.news_page .news_wrap {
 	width: 100%;
 	padding-right: 100px;
 	margin-bottom: 70px;
+	display: -webkit-box;
 	display: flex;
-	align-items: flex-start;
-	justify-content: flex-start;
+	-webkit-box-align: start;
+	        align-items: flex-start;
+	-webkit-box-pack: start;
+	        justify-content: flex-start;
 }
 .news_block:last-child {
 	margin-bottom: 0;
@@ -109,6 +115,7 @@ main.news_page .last_news .input_wrap input:focus {
 main.news_page .last_news .input_wrap input::-webkit-input-placeholder { color: #8a8a8a; }
 main.news_page .last_news .input_wrap input:-ms-input-placeholder { color: #8a8a8a; }
 main.news_page .last_news .input_wrap input::-ms-input-placeholder { color: #8a8a8a; }
+main.news_page .last_news .input_wrap input::-moz-placeholder { color: #8a8a8a; }
 main.news_page .last_news .input_wrap input::placeholder { color: #8a8a8a; }
 main.news_page .last_news .input_wrap button {
 	display: block;
@@ -157,9 +164,12 @@ main.news_page .last_news .divider {
 main.news_page .pagination {
 	padding-top: 80px;
 	padding-bottom: 130px;
+	display: -webkit-box;
 	display: flex;
-	align-items: center;
-	justify-content: flex-start;
+	-webkit-box-align: center;
+	        align-items: center;
+	-webkit-box-pack: start;
+	        justify-content: flex-start;
 }
 main.news_page .pagination a {
 	display: inline-block;
@@ -170,6 +180,7 @@ main.news_page .pagination a {
 	font-weight: 100;
 	line-height: 30px;
 	text-align: center;
+	-webkit-transition: none;
 	transition: none;
 	margin-right: 35px;
 	border-radius: 50%;
@@ -191,7 +202,8 @@ main.news_page .pagination a#nextPage {
 	margin-right: 0;
 }
 main.news_page .pagination a#previousPage {
-	transform: rotateY(-180deg);
+	-webkit-transform: rotateY(-180deg);
+	        transform: rotateY(-180deg);
 }
 main.news_page .mobile {
 	display: none;
@@ -265,7 +277,9 @@ main.news_page .mobile button {
 		margin-top: 30px;
 	}
 	main.news_page .content {
-		flex-direction: column-reverse;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		        flex-direction: column-reverse;
 	}
 	main.news_page .last_news>.title,
 	main.news_page .last_news_block,
@@ -316,7 +330,9 @@ main.news_page .mobile button {
 }
 @media all and (max-width: 520px) {
 	.news_block {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		        flex-direction: column;
 		margin-bottom: 30px;
 	}
 	.news_block .img_wrap {

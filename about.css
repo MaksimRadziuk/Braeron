@@ -416,7 +416,9 @@ main.about_page .certificate_block>img {
 		display: none;
 	}
 	main.about_page .company_history .history_row {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		        flex-direction: column;
 	}
 	main.about_page .history_block {
 		width: 100%;
@@ -441,10 +443,13 @@ main.about_page .certificate_block>img {
 	}
 	main.about_page .employes_part .group_photo {
 		height: 240px;
+		display: -webkit-box;
 		display: flex;
-		align-items: center;
+		-webkit-box-align: center;
+		        align-items: center;
 		overflow:hidden;
-		justify-content: center;
+		-webkit-box-pack: center;
+		        justify-content: center;
 	}
 	main.about_page .employes_part .group_photo img {
 		height: 100%;

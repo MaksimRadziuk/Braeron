@@ -906,7 +906,7 @@ section.partners .slider_wrap {
 		bottom: 0;
 	}
 	section.description {
-		background: linear-gradient(to bottom, rgba(242,246,246,1) 0%, rgba(242,246,246,1) 55%, rgba(255,255,255,1) 55.001%, rgba(255,255,255,1) 100%);
+		background: -webkit-gradient(linear, left top, left bottom, from(rgba(242,246,246,1)), color-stop(55%, rgba(242,246,246,1)), color-stop(55.001%, rgba(255,255,255,1)), to(rgba(255,255,255,1)));background: linear-gradient(to bottom, rgba(242,246,246,1) 0%, rgba(242,246,246,1) 55%, rgba(255,255,255,1) 55.001%, rgba(255,255,255,1) 100%);
 	}
 }
 @media all and (max-width: 768px) {
