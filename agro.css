@@ -1,0 +1,683 @@
+main.uses_page h1 {
+	font-size: 44px;
+	color: #1a1a1a;
+	margin-bottom: 80px;
+}
+main.uses_page .infographic_wrap {
+	position: relative;
+}
+main.uses_page .infographic_wrap>img {
+	width: 1155px;
+}
+main.uses_page .capacity_wrap {
+	position: absolute;
+	width: 370px;
+	height: 50px;
+	background-color: #84bc9a;
+	top: 100px;
+	left: 115px;
+}
+main.uses_page .capacity_wrap:after {
+	position: absolute;
+	display: block;
+	content: '';
+	width: 50px;
+	height: 76px;
+	right: -50px;
+	top: 0;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% 100%;
+	background-image: url(img/use_green-angle.png);
+}
+main.uses_page .capacity_wrap span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+}
+main.uses_page .capacity_wrap img {
+	display: inline-block;
+	margin-right: 10px;
+}
+main.uses_page .process_square_wrap {
+	position: absolute;
+	width: 415px;
+	height: 380px;
+	background-color: #1d496b;
+	padding: 40px 10px 40px 40px;
+	top: 55px;
+	right: 0;
+}
+main.uses_page .process_square_wrap:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -315px;
+	height: 525px;
+	width: 315px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% 100%;
+	background-image: url(img/use_blue-angle.png);
+}
+main.uses_page .process_square_wrap p {
+	margin-top: 0; 
+	font-size: 15px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+	color: #fff;
+}
+main.uses_page .process_square_wrap ul {
+	margin: 0;padding: 0;
+	width: 100%;
+}
+main.uses_page .process_square_wrap ul li {
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+	color: #fff;
+	margin-bottom: 25px;
+}
+main.uses_page .process_square_wrap ul li:last-child {
+	margin-bottom: 0;
+}
+main.uses_page .fly_height_wrap {
+	position: absolute;
+	left: -95px;
+	top: 50%;
+	transform: translateY(-50%) rotateZ(-90deg);
+	width: 330px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+main.uses_page .fly_height_wrap img {
+	width: 100%;
+}
+main.uses_page .fly_height_wrap p {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	color: #fff;
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+	display: block;
+}
+main.uses_page .centered_text {
+	position: absolute;
+	bottom: 40px;
+	left: 40%;
+	transform: translateX(-50%);
+}
+main.uses_page .centered_text p {
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+main.uses_page h2 {
+	font-size: 34px;
+	font-weight: 700;
+	width: 100%;
+	text-align: left;
+	color: #1a1a1a;
+	margin:100px 0;
+	padding: 0;
+}
+main.uses_page .use_slider_wrap {
+	margin-bottom: 0;
+	padding: 0 75px;
+}
+main.uses_page .use_slide {
+	position: relative;
+	margin:0 10px;
+	height: 265px;
+	display: table-cell;
+	vertical-align: center;
+	overflow:hidden;
+	text-align: center;
+}
+main.uses_page .use_slide>img {
+	width: 100%;
+}
+main.uses_page .use_slide .title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	background-color: rgba(29,73,107,0.9);
+	padding-left: 40px;
+	padding-top: 16px;
+	padding-right: 30px;
+	color: #fff;
+	font-size: 14px;
+	text-align: left;
+}
+.slick-prev, .slick-next {
+	width: 20px;
+	height: 60px;
+	background-image: url(img/slider_arrow-right.png);
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.slick-prev {
+	-webkit-transform: rotateY(180deg) translate(0, -50%);
+	        transform: rotateY(180deg) translate(0, -50%);
+	left: 0;
+}
+.slick-next {
+	right: 0px;
+}
+.slick-prev:before, .slick-next:before {
+	display: none;
+}
+.slick-prev:focus, .slick-next:focus,
+.slick-prev:hover, .slick-next:hover {
+	opacity: 1;
+	background-image: url(img/slider_arrow-right.png);
+}
+
+main.uses_page .techDescription {
+	width: 100%;
+	position: relative;
+	background: rgb(242,246,246);
+	background: -webkit-gradient(linear, left top, right top, from(rgba(242,246,246,1)), color-stop(55%, rgba(242,246,246,1)), color-stop(55.001%, rgba(255,255,255,1)), to(rgba(255,255,255,1)));
+	background: linear-gradient(to right, rgba(242,246,246,1) 0%, rgba(242,246,246,1) 55%, rgba(255,255,255,1) 55.001%, rgba(255,255,255,1) 100%);
+}
+main.uses_page .techDescription:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 250px;
+	width: 20vw;
+	height: 7px;
+	background-color: #afdaa8;
+	z-index: 0;
+}
+main.uses_page .techDescription .container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+main.uses_page .techDescription .text_part {
+	width: 45%;
+	padding-top: 110px;
+	padding-bottom: 110px;
+	padding-right: 80px;
+}
+main.uses_page .techDescription h2 {
+	font-size: 34px;
+	color:34px;
+	font-weight: 700;
+	margin: 0;
+}
+main.uses_page .techDescription .divider_horizontal {
+	width: 160px;
+	height: 3px;
+	background-color: #afdaa8; 
+	margin: 50px 0;
+}
+main.uses_page .techDescription .tech_table_wrap {
+	width: 55%;
+	padding:20px 40px;
+	background-color: #1d496b;
+	margin-top: 120px;
+}
+main.uses_page .tech_table_row {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 20px 0;
+	line-height: 1.5;
+}
+main.uses_page .tech_table_row .left_cell {
+	min-width: 470px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	padding-left: 20px;
+}
+main.uses_page .tech_table_row .right_cell {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	padding:0 20px;
+}
+main.uses_page .tech_table_row.middle {
+	border-top:1px solid #618098;
+	border-bottom:1px solid #618098;
+	color: #fff;
+	padding-left: 20px;
+	height: 50px;
+	align-items: center;
+}
+
+main.uses_page .research_results {
+	padding-bottom: 50px;
+}
+main.uses_page .research_results h2 {
+	font-size: 34px;
+	color:34px;
+	font-weight: 700;
+	margin:110px 0 50px 0;
+}
+main.uses_page .research_block {
+	width: 49%;
+	display: inline-block;
+	padding-right: 150px;
+	margin-bottom: 90px;
+}
+main.uses_page .research_block .divider_horizontal {
+	width: 160px;
+	height: 3px;
+	background-color: #afdaa8; 
+	margin:0 0 50px 0;
+}
+main.uses_page .research_block .title {
+	font-size: 22px;
+	font-weight: 700;
+	color:#1a1a1a;
+	margin-bottom: 30px;
+}
+main.uses_page .research_block p {
+	margin-bottom: 25px;
+	margin-top: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+}
+main.uses_page .research_block a {
+	font-weight: 700;
+	color:#1a1a1a;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+main.uses_page .research_block a:hover {
+	color:#84bc9a;
+}
+main.uses_page .research_block a>img {
+	margin-right: 10px;
+}
+main.uses_page .research_row {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+
+@media all and (max-width: 1460px) {
+	main.uses_page h1 {
+		margin-top: 0px;
+		margin-bottom: 40px;
+		font-size: 34px;
+	}
+	main.uses_page .capacity_wrap {
+		top: 65px;
+		left: 65px;
+	}
+	main.uses_page .process_square_wrap {
+		width: 340px;
+		height: 310px;
+		padding: 20px 10px 20px 20px;
+		top: 30px;
+	}
+	main.uses_page .process_square_wrap p {
+		font-size: 14px;
+	}
+	main.uses_page .process_square_wrap ul li {
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	main.uses_page .process_square_wrap:before {
+		width: 275px;
+		left: -275px;
+		height: 430px;
+	}
+	main.uses_page .infographic_wrap>img {
+		width: 910px;
+	}
+	main.uses_page .centered_text p {
+		margin-bottom: 20px;
+	}
+	main.uses_page .tech_table_row .left_cell {
+		min-width: 325px;
+	}
+	main.uses_page h2 {
+		margin: 70px 0;
+	}
+	main.uses_page .research_results h2 {
+		margin-top: 70px;
+		font-size: 32px;
+	}
+	main.uses_page .techDescription:after {
+		top: 365px;
+	}
+	main.uses_page .use_slide {
+		height: 215px;
+	}
+	main.uses_page .techDescription:after {
+		top: 410px;
+	}
+	main.uses_page .research_block {
+		padding-right: 100px;
+	}
+}
+@media all and (max-width: 1230px) {
+	main.uses_page .infographic_wrap>img {
+		width: 680px;
+	}
+	main.uses_page .capacity_wrap span {
+		font-size: 12px;
+		line-height: 30px;
+	}
+	main.uses_page .capacity_wrap img {
+		width: 15px;
+	}
+	main.uses_page .capacity_wrap {
+		width: 275px;
+		height: 30px;
+		top: 50px;
+	}
+	main.uses_page .capacity_wrap:after {
+		width: 20px;
+		right: -20px;
+		height: 47px;
+	}
+	main.uses_page .fly_height_wrap p {
+		font-size: 12px;
+	}
+	main.uses_page .fly_height_wrap {
+		width: 270px;
+	}
+	main.uses_page .fly_height_wrap img {
+		width: 100%;
+	}
+	main.uses_page .fly_height_wrap {
+		left: -75px;
+	}
+	main.uses_page .centered_text p {
+		font-size: 12px;
+	}
+	main.uses_page .process_square_wrap p,
+	main.uses_page .process_square_wrap ul li {
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	main.uses_page .process_square_wrap {
+		width: 280px;
+		height: 260px;
+		top: -10px;
+	}
+	main.uses_page .process_square_wrap:before {
+		height: 363px;
+		width: 200px;
+		left: -200px;
+	}
+	main.uses_page .techDescription .tech_table_wrap {
+		width: 50%;
+		padding: 20px;
+	}
+	main.uses_page .tech_table_row .left_cell {
+		min-width: 60%;
+		font-size: 12px;
+	}
+	main.uses_page .tech_table_row .right_cell {
+		font-size: 12px;
+	}
+	main.uses_page .tech_table_row.middle {
+		font-size: 12px;
+	}
+	main.uses_page .techDescription .text_part {
+		width: 50%;
+		padding-right: 30px;
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	main.uses_page .techDescription h2, main.uses_page .research_results h2 {
+		font-size: 26px;
+	}
+	main.uses_page .techDescription .divider_horizontal {
+		margin: 30px 0;
+	}
+	main.uses_page .techDescription .text_part p {
+		font-size: 12px;
+	}
+	main.uses_page .techDescription:after {
+		top: 400px;
+		height: 5px;
+	}
+	main.uses_page .research_block {
+		padding-right: 70px;
+		margin-bottom: 30px;
+	}
+	main.uses_page .research_block .divider_horizontal {
+		margin-bottom: 30px;
+	}
+	main.uses_page .research_block p {
+		font-size: 12px;
+	}
+}
+@media all and (max-width: 900px) {
+	.breadcrumbs {
+		display: none;
+	}
+	main.uses_page h1 {
+		margin: 30px 0;
+	}
+	main.uses_page .infographic_wrap>img {
+		width: 100%;
+	}
+	main.uses_page .capacity_wrap:after,
+	main.uses_page .process_square_wrap:before {
+		display: none;
+	}
+	main.uses_page .centered_text {
+		left: 50%;
+		bottom: 30%;
+	}
+	main.uses_page .process_square_wrap {
+		position: relative;
+		width: 100%;
+		height: auto;
+		padding: 40px;
+	}
+	main.uses_page .capacity_wrap {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	main.uses_page .techDescription {
+		background: linear-gradient(to bottom, rgba(242,246,246,1) 0%, rgba(242,246,246,1) 65%, rgba(255,255,255,1) 65.001%, rgba(255,255,255,1) 100%);
+	}
+	main.uses_page .techDescription .container {
+		flex-direction: column;
+		padding: 0;
+	}
+	main.uses_page .techDescription .text_part {
+		width: 100%;
+		padding: 40px 20px;
+	}
+	main.uses_page .techDescription .text_part p {
+		font-size: 14px;
+	}
+	main.uses_page .techDescription .tech_table_wrap {
+		margin-top: 0;
+		width: 100%;
+		padding: 20px 0;
+	}
+	main.uses_page .techDescription:after {
+		display: none;
+	}
+	main.uses_page .tech_table_row .left_cell,
+	main.uses_page .tech_table_row .right_cell {
+		font-size: 14px;
+	}
+	main.uses_page .tech_table_row .left_cell {
+		min-width: 50%;
+	}
+	main.uses_page .tech_table_row .right_cell {
+		text-align: left;
+		width: 50%;
+	}
+	main.uses_page .research_block {
+		padding-right: 30px;
+	}
+	main.uses_page .infographic_part .container {
+		padding: 0;
+	}
+	main.uses_page .tech_table_row.middle {
+		font-size: 14px;
+	}
+	main.uses_page .research_results h2 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	main.uses_page .research_block .title {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	main.uses_page .research_block .divider_horizontal {
+		margin-bottom: 20px;
+	}
+	main.uses_page .research_block p {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	main.uses_page .research_results {
+		padding-bottom: 30px;
+	}
+}	
+@media all and (max-width: 768px) {
+	main.uses_page .fly_height_wrap {
+		top: 42%;
+	}
+}	
+@media all and (max-width: 640px) {
+	main.uses_page .research_row {
+		flex-direction: column;
+	}
+	main.uses_page .research_block {
+		width: 100%;
+		padding: 0;
+	}
+	main.uses_page .techDescription h2, main.uses_page .research_results h2 {
+		font-size: 22px;
+	}
+	main.uses_page h2 {
+		font-size: 22px;
+		margin: 30px 0;
+	}
+	main.uses_page .fly_height_wrap img {
+		width: 155px;
+		height: 15px;
+	}
+	main.uses_page .centered_text {
+		bottom: 36%;
+	}
+	main.uses_page .tech_table_row {
+		flex-direction: column;
+	}
+	main.uses_page .tech_table_row .left_cell {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	main.uses_page .tech_table_row .right_cell {
+		width: 100%;
+	}
+	main.uses_page .tech_table_row.middle {
+		align-items: flex-start;
+	}
+	main.uses_page .use_slider_wrap {
+		padding: 0 30px;
+	}
+	.slick-prev, .slick-next {
+		width: 10px;
+		height: 25px;
+	}
+}
+@media all and (max-width: 540px) {
+	main.uses_page .capacity_wrap {
+		top: 20px;
+	}
+	main.uses_page .fly_height_wrap {
+		top: 32%;
+	}
+	main.uses_page .centered_text {
+		bottom: 45%;
+	}
+	main.uses_page .process_square_wrap {
+		padding: 30px 20px;
+	}
+	main.uses_page .process_square_wrap p, 
+	main.uses_page .process_square_wrap ul li {
+		font-size: 14px;
+	}
+}
+@media all and (max-width: 420px) {
+	main.uses_page h1 {
+		font-size: 24px;
+	}
+	main.uses_page .use_slider_wrap {
+		padding: 0 15px;
+	}
+	main.uses_page .techDescription .text_part {
+		padding-bottom: 20px;
+	}
+	main.uses_page .research_block .title {
+		margin-bottom: 10px;
+	}
+	main.uses_page .fly_height_wrap {
+		width: 240px;
+		top: 27%;
+	}
+	main.uses_page .fly_height_wrap p {
+		margin-bottom: 15px;
+	}
+	main.uses_page .centered_text p {
+		white-space: nowrap;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	main.uses_page .centered_text {
+		bottom: 50%;
+	}
+	main.uses_page .use_slide {
+		height: 220px;
+	}
+	main.uses_page .use_slide img {
+		height: 100%;
+		width: auto;
+	}
+	main.uses_page .use_slide .title {
+		padding-left: 20px;
+	}
+	main.uses_page .tech_table_row.middle {
+		height: auto;
+		padding: 10px 20px;
+	}
+}
+@media all and (max-width: 370px) {
+	main.uses_page .fly_height_wrap {
+		width: 220px;
+		left: -79px;
+		top: 22%;
+	}
+	main.uses_page .fly_height_wrap img {
+		width: 120px;
+	}
+	main.uses_page .centered_text {
+		bottom: 57%;
+	}
+}

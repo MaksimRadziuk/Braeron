@@ -65,6 +65,30 @@ $(document).ready(function(){
 			}
 		]
 	});
+	$('.use_slider_wrap').slick({
+		slidesToShow:3,
+		slidesToScroll:1,
+		autoplay:false,
+		autoplaySpeed:5000,
+		speed:1500,
+		arrows:true,
+		infinite:true,
+		dots:false,
+		responsive:[
+			{
+			breakpoint:1231,
+			settings:{
+				slidesToShow:2
+				}
+			},
+			{
+			breakpoint:641,
+			settings:{
+				slidesToShow:1
+				}
+			}
+		]
+	});
 
 	$('.closePopup').click(function() {
 		$(this).parent('.popup').toggleClass('active');
