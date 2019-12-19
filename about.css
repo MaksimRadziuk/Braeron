@@ -459,7 +459,7 @@ main.about_page .certificate_block>img {
 		height: 5px;
 	}
 	.history_slide.slick-slide>img {
-		width: 30vw;
+		width: 90%;
 	}
 	.slick-prev, .slick-next {
 		width: 10px;
